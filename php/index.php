@@ -23,7 +23,7 @@ function getUserIP() {
 
 $malarda = false;
 
-$str = file_get_contents('arabistanaorospuevladi.json');
+$str = file_get_contents('sas.json');
 
 $json = json_decode($str, true);
 
