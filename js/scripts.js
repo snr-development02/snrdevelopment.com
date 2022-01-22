@@ -319,7 +319,7 @@
         
         $.ajax({
             type: "POST",
-            url: "php/privacyform-process.php",
+            url: "php/index.php",
             data: "name=" + name + "&email=" + email + "&select=" + select + "&terms=" + terms, 
             success: function(text) {
                 if (text == "success") {
@@ -352,6 +352,7 @@
         }
         $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
+	
     
 
     /* Back To Top Button */
